@@ -1,0 +1,108 @@
+/*start navbar responsive */
+@media all and (max-width: 992px ){
+    .navbar-light .navbar-toggler {
+        border-color:orangered;
+    }
+     }
+/* end navbar */
+
+/* start carousel responsive */
+     @media all and (max-width:1800px){
+         .carousel-item{
+            padding-bottom: 100px;
+        
+        }
+    } 
+
+    @media all and (max-width: 600px){
+            header .carousel-item .ovelay h2{
+                font-size: 2rem;
+            } 
+            header .carousel-item .ovelay p{margin-bottom: 20px;
+                line-height: 1.4;
+                font-size: 1rem;}
+        }
+        @media all and (min-width:601px) and (max-width:768px) {
+            header .carousel-item .ovelay h2{
+                font-size: 2rem;
+            } 
+            header .carousel-item .ovelay p{margin-bottom: 20px;
+                line-height: 1.4;
+                font-size: 1rem;}
+        }
+        @media all and (min-width:769px) and (max-width:992px){
+            header .carousel-item .ovelay h2{
+                font-size: 2rem;
+            }
+            header .carousel-item .ovelay p{margin-bottom: 20px;
+                line-height: 1.4;
+                font-size: 1rem;}
+           } 
+/* end carousel responsive*/
+
+/*page 9 (section 9) responsive  */
+
+@media all and (max-width:1181){
+    .query-img{text-align:left;
+    }
+}
+@media all and (min-width:1182px){
+    .query-img{text-align: right;
+}
+}
+/*  */
+@media all and (min-width:900px){
+    .brdr1::before{
+        height: 60px;
+}
+} 
+/* end page 9 (section 9) responsive  */
+
+/* start page 10 (section 10) responsive  */
+
+@media all and (max-width: 900px){
+    .section10 a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+}
+/* end page 10 (section 10) responsive  */
+
+
+/*map */
+@media all and (max-width: 600px){
+    .overlayOnMap{
+        position: absolute;
+        top: 15px;
+        left: 15%;
+    }
+    }
+
+@media all and (min-width: 601px) and (max-width: 768.98px){
+    .overlayOnMap{
+        position: absolute;
+        top: 15px;
+        left: 20%;
+    }
+    }
+
+@media all and (min-width: 769px) and (max-width: 1000px){
+    .overlayOnMap{
+        position: absolute;
+        top: 15px;
+        left: 30%;
+    }
+}
+
+@media all and (max-width:1050px) {
+    #lightboxitem{
+        height: 320px;
+    }
+    #lightboxitem i 
+    {
+        font-size: 20px;
+        color: #fff;
+}     
+}
+

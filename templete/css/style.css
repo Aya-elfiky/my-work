@@ -1,0 +1,424 @@
+body{
+    font-family: 'Open Sans',Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* start section */
+section{
+    background-color: #eeeeee;
+}
+div i ,div span{
+    color: #e67e22;
+}
+div span{
+    font-size: 14px;
+}
+div i{font-size: 16px;
+}
+.contact2{
+    text-align: right;
+}
+/* end section  */
+
+/* start navbar */
+.navbar{
+    z-index: 99;
+}
+ .navbar-light .navbar-nav .nav-link {
+    color: #777777;
+    font-size: 16px;}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 16px;
+}
+ .aboutHover1Active{
+    padding: 5px 15px  !important;
+    background-color: #ff7600 !important;
+    text-transform: uppercase;
+    padding-right:18px ;
+}
+.aboutHoverLink{
+    margin-right: 30px;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+.aboutHoverLink:hover{
+    padding: 5px 20px ;
+    background-color: #ff7600;
+}
+.about:hover{
+    padding: 5px 40px ;
+}  
+/* end navbar */
+
+/* start header */
+header .carousel{
+    min-height:65vh;
+    background-image: url(../images/templatemo_carousel_bg.jpg);
+    background-size:cover ;
+    background-attachment: fixed;
+    background-position:center center;
+    position: relative;
+}
+header .carousel .ovelayOnCarousel{
+    min-height:65vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(66,133,244,0.19);
+}
+.custom{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #fff;
+} 
+.ovelay{
+    padding-top: 160px;
+} 
+header .carousel-item .ovelay h2{
+    font-size: 2.25rem;
+} 
+header .carousel-item .ovelay p{margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 1.32rem;}
+.btn-orange{
+    background-color:orangered;
+    border-bottom: 2px solid #d35400;
+    transition:all .3s ease;
+}    
+.btn-orange:hover{
+    background-color:rgb(255, 0, 0);
+
+}
+header .carousel-item .ovelay a{
+    color: #fff;
+    text-decoration: none;
+}
+/* end header */
+
+/* start section3 third page*/
+.section3 p{
+    font-size: 15px;
+    color: #929292;
+}
+.Urbanic{
+    color: #ff7600;
+    font-size: 2.5rem;
+}
+/* end section3 third page */
+
+/* start fourth page (section4) */
+.AWESOME{
+    color: #000;
+    font-size: 20px;
+}
+.mycard p{
+    font-weight: lighter;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #929292
+}
+/* end  fourth page section4 */
+
+/* start section5 fifth page */
+.section5{
+    width: 100%;
+    min-height: 65vh;
+    background-image: url(../images/background.png);
+    position: relative;
+}
+.section5 .MEET{
+    padding: 70px 0px 20px 0px;
+}
+.meet-image{
+    position: relative;
+    transition: all .2s ease;
+}
+.overlayOnImage{position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: rgba(220, 157, 102, 0.8);
+    padding-top: 100%;
+    height:100%;
+    width: 100%;  
+    }    
+.meet-image:hover .overlayOnImage{
+        opacity: 1;
+}
+.text{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    .overlayBottem{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 0;
+    }
+    .works-image:hover .overlayBottem{
+        height:100%;
+    }
+.section5 .icons, footer .footerIcon{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    background-color: #000;
+    transition:all .3s ease;
+}
+.section5 .icons{
+    margin: 2px;
+}
+footer .footerIcon{
+    margin: 8px;
+}
+.text a{
+    color: #fff;
+    text-decoration: none;
+}
+.icons:hover{background-color: orangered;}
+.footerIcon:hover{
+    background-color: orangered;
+}
+/*end section5 fifth page  */
+
+/* start sixth page (section6) */
+.section6 , .section7 ,.section8 ,.section10{
+    width: 100%;
+    min-height: auto;
+    position: relative;
+}
+.section6 h5, .section7 h5 ,.section8 h5,.section10 h5{
+    padding: 70px 0px 20px 0px;
+}
+.brdr{
+    width: 200px;
+    height: 2px;
+    background-color: orangered;
+    margin: 10px auto;
+    transition: width 0.5s;
+}
+.PORTFOLIO-item{
+    width:200px ;
+    height:200px ;
+    position: relative;
+    transition: all .2s ease;
+    margin:20px 12px;
+}
+.PORTFOLIO-item img{
+    height:200px ;
+}
+
+.overlayOnPORTFOLIO-item{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background: rgba(0,0,0,.75);
+    border: 2px solid #ff7600;
+    padding-top: 100%;
+    height: 100%;
+    width: 100%;
+    }    
+    .PORTFOLIO-item:hover .overlayOnPORTFOLIO-item{
+        opacity: 1;
+    }
+    .text1{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+    .overlay{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 0;
+    }
+    .PORTFOLIO-item:hover .overlay{
+        height:100%;
+    }
+    .section6 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: transparent;
+        color: #000;
+        text-transform: capitalize;
+    }
+    .section6 .nav-pills .nav-link.active{
+        color:#e67e22; 
+	    text-decoration:none;
+    }
+    .section6 a{color: #000 ;
+        transition:all .3s ease;}
+    .section6 a:hover{
+        color:#e67e22; 
+        text-decoration:none;
+    }
+    .PORTFOLIO-item p{
+        font-size: 18px;
+    }
+    /*  this is related to java script file (lightboxcontainer) */
+    .container-position{
+        position: relative;
+    }
+    #lightboxcontainer
+    {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(220, 157, 102, 0.8);
+        display:none;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+    }
+    #lightboxitem
+    {
+        width: 50%;
+        height: 500px;
+        background-image: url(images/full-gallery-image-3.jpg);
+        background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        border: 20px solid  wheat;
+        justify-content: space-between;
+        position: relative;
+        z-index: 99;
+    }
+    #lightboxitem i 
+    {
+        font-size: 30px;
+        cursor: pointer;
+        margin: 5px;
+
+    }
+    #close
+    {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+    #prev
+    {
+        position: absolute;
+        bottom: 25px;
+        left: 20px;
+    }
+    
+    #next
+    {
+        position: absolute;
+        bottom: 25px;
+        right: 20px;
+    }
+    
+  /* ////////////////////////////////// */
+
+/* end  dixth page section6 */
+
+/* start seventh page section7 */
+.pragraph{
+    font-size: 14px;
+}
+.ancor{
+    color: #e67e22;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ancor:hover{
+    color: #e67e22;
+    text-decoration: none;
+    font-size: 14px;
+}
+/*end seventh page (section7)  */
+
+/* start page 8 (section8) */
+.map{
+    position: relative;
+    overflow: hidden;
+    height:350px; 
+}
+iframe{
+    height:350px; 
+    width:100%;
+}
+.overlayOnMap{
+    position: absolute;
+    top: 15px;
+    left: 25%;
+}
+.ok{
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+.overlayOnMapDown{
+    position: absolute;
+    bottom: 33px;
+    left: 10px;
+}
+.btn-outline-info{
+    text-align: right;
+    color: blue;
+}
+.btn-outline-info:hover{
+    background-color: rgba(66,133,244,0.16);
+    color: blue;
+    border: 1px solid #d2e2fd;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+}
+.bg-pink{
+    background-color: papayawhip;
+    font-size: small;
+    
+}
+/* end page 8 (section8) */
+
+/* start  page 9 (section 9) */
+.section9{
+    background-color: #8996a0;
+    min-height: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.brdr1::before{
+    content: '';
+    width:2px;
+    height: 140px;
+    background-color: #fff;
+    position: absolute;
+    top:5px ;
+    left: 10px;
+}
+.text-yellow{
+    color: #FFFF33;
+    font-size: 14px;
+}
+/* end (section 9) */
+
+/* start section10 */
+.section10 a{
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.blue{color: #428bca;
+}
+.blue:hover{color:#428bca ;}
+/* end (section 10) */
+
+/* start footer */
+.footerIcon {
+    margin: px;
+}
+.footerIcon a{color: #fff;
+    text-decoration: none;}
+/* end footer */
